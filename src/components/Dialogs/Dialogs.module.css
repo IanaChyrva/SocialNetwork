@@ -1,0 +1,26 @@
+.dialogWrapper{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    padding: 15px;
+}
+
+.dialogs{
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
+.dialogs .activeLink {
+    color: rgb(255, 77, 0)
+}
+
+.messages{
+
+}
+
+.message{
+
+}

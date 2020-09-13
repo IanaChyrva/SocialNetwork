@@ -1,0 +1,13 @@
+.item {
+  color: black;
+  margin-top: 10px;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 40px;
+}
+
+.LikesButton {
+  margin-left: 10px;
+}

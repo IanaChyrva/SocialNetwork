@@ -1,0 +1,14 @@
+.image__wrapper {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+.mainImage {
+    width: 100%;
+}
+
+.ProfileInfoWrapper {
+    padding: 10px;
+}
