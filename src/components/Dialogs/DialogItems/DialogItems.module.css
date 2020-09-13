@@ -1,0 +1,8 @@
+a {
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+
+.activeLink {
+    color: rgb(255, 77, 0)
+}
