@@ -5,9 +5,9 @@ import MessageBlock from './Message/MessageBlock'
 
 const Dialogs = (props) => {
 
-    let dialogs = props.dialogItems.map(dialog => <DialogsBlock name={dialog.name} id={dialog.id} />)
+    let dialogs = props.state.DialogsData.map(dialog => <DialogsBlock name={dialog.name} id={dialog.id} />)
 
-    let messages = props.messagesItems.map(message => <MessageBlock message={message.message} id={message.id} />)
+    let messages = props.state.messagesData.map(message => <MessageBlock message={message.message} id={message.id} />)
 
     return (
         <>
