@@ -2,27 +2,27 @@ import React from "react";
 import Post from "./Post/Post";
 import p from './MyPosts.module.css'
 
-const MyPosts = () => {
+const MyPosts = (props) => {
 
-  const postsData = [
-    {
-      id: 1,
-      value: "Hi there!",
-      likesCount: 2
-    },
-    {
-      id: 2,
-      value: "It's my first post",
-      likesCount: 5
-    },
-    {
-      id: 3,
-      value: "Press like!",
-      likesCount: 102
-    }
-  ]
+  // const postsData = [
+  //   {
+  //     id: 1,
+  //     value: "Hi there!",
+  //     likesCount: 2
+  //   },
+  //   {
+  //     id: 2,
+  //     value: "It's my first post",
+  //     likesCount: 5
+  //   },
+  //   {
+  //     id: 3,
+  //     value: "Press like!",
+  //     likesCount: 102
+  //   }
+  // ]
 
-  let posts = postsData.map(post => <Post
+  let posts = props.postItems.map(post => <Post
     id={post.id}
     value={post.value}
     likesCount={post.likesCount}
