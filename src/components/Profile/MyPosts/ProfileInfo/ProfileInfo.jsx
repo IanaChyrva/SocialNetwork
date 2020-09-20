@@ -14,10 +14,8 @@ const ProfileInfo = () => {
             <div className={profile.ProfileInfoWrapper}>
                 <div>
                     ava+descr
+                </div>
             </div>
-
-            </div>
-
         </div>
     );
 };

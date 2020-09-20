@@ -6,3 +6,21 @@ a {
 .activeLink {
     color: rgb(255, 77, 0)
 }
+
+.avatarWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.dialog {
+    display: flex;
+    align-items: center;
+}

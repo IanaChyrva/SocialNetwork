@@ -6,11 +6,11 @@ const Post = (props) => {
   return (
     <div className={profile.item}>
       <img
-        src="https://picturepan2.github.io/spectre/img/avatar-2.png"
-        alt=""
+        src={props.image.src}
+        alt={props.image.alt}
         className={profile.avatar}
       />
-      {props.value}
+      {props.post}
       <button className={profile.LikesButton}>{props.likesCount} likes</button>
     </div>
   );
