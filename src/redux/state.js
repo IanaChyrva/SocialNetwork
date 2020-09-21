@@ -72,7 +72,7 @@ const state = {
                 post: "Hi there!",
                 likesCount: 2,
                 image: {
-                    src: 'https://picturepan2.github.io/spectre/img/avatar-2.png', //, , , , , 
+                    src: 'https://picturepan2.github.io/spectre/img/avatar-2.png',
                     alt: 'Avatar image',
                 }
             },
@@ -96,6 +96,43 @@ const state = {
                 }
             }
         ]
+    },
+    SideBar: {
+        FriendsPage: [
+            {
+                image: {
+                    src: 'https://posworkshop.space/img/posworkshop-avatar-gopher.png',
+                    alt: 'Julia avatar photo'
+                },
+                id: 1,
+                name: 'Julia'
+            },
+            {
+                image: {
+                    src: 'https://avatars1.githubusercontent.com/u/109951?s=400&v=4',
+                    alt: 'Kate avatar photo'
+                },
+                id: 3,
+                name: 'Kate'
+            },
+            {
+                image: {
+                    src: 'https://github.githubassets.com/images/modules/logos_page/Octocat.png',
+                    alt: 'Peter avatar photo'
+                },
+                id: 4,
+                name: 'Peter'
+            },
+            {
+                image: {
+                    src: 'https://picturepan2.github.io/spectre/img/avatar-2.png',
+                    alt: 'Alex avatar photo'
+                },
+                id: 5,
+                name: 'Alex'
+            }
+        ]
+
     }
 }
 

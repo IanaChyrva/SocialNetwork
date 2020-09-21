@@ -12,19 +12,21 @@ import {
   Route
 } from "react-router-dom";
 import News from './components/News/News';
+import FriendsPage from './components/Friends/FriendsPage';
 
 const App = (props) => {
   return (
     <Router>
       <div className="app-wrapper">
         <Header />
-        <Navbar />
+        <Navbar state={props.state.SideBar} />
         <div className="app-wrapper-content">
           <Route path="/dialogs" render={() => <Dialogs state={props.state.MessagesPage} />} />
           <Route path="/profile" render={() => <Profile state={props.state.ProfilePage} />} />
           <Route path="/news" component={News} />
           <Route path="/music" component={Music} />
           <Route path="/settings" component={Settings} />
+          <Route path="/friends" render={() => <FriendsPage />} />
         </div>
       </div>
     </Router>
