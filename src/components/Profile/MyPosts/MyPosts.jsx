@@ -6,6 +6,7 @@ const MyPosts = (props) => {
 
   let posts = props.postItems.map(post => <Post id={post.id} value={post.post} likesCount={post.likesCount} image={post.image} />)
 
+
   return (
     <div className={p.MyPostsWrapper}>
       <div>
